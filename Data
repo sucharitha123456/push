@@ -1,0 +1,11 @@
+dataset <- read.csv("C:/Users/Windows/OneDrive/diabetes.csv")
+mean_age <- mean(dataset$Age)
+print(mean_age)
+
+
+
+
+dataset<-read.csv("C:/Users/Windows/Downloads/diabetes.csv")
+A<-c(dataset$Age)
+maximum<-max(dataset$Age)
+print(maximum)
